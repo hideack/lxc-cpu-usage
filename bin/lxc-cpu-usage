@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var core = require('../lib/core');
+
+var main = function() {
+  program
+    .version(require('../package.json').version)
+    .option('-n, --name [name]', 'CPU usage for target container.')
+    .parse(process.argv);
+
+  if (!program.name) {
+    return console.error('Missing container name.');
+  }
+
+  core.cpuUsage(program);
+}
+
+main();
+
