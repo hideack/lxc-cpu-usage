@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/hideack/lxc-cpu-usage",
   "dependencies": {
-    "usage": "~0.3.10"
+    "usage": "~0.3.10",
+    "commander": "~2.2.0",
+    "ps-tree": "0.0.3",
+    "step": "0.0.5",
+    "underscore": "~1.6.0"
   }
 }
