@@ -13,9 +13,9 @@
   "keywords": [
     "lxc"
   ],
-  "bin": [
+  "bin": {
     "lxc-cpu-usage": "bin/lxc-cpu-usage"
-  ],
+  },
   "author": "hideack",
   "license": "MIT",
   "bugs": {
