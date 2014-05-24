@@ -1,6 +1,6 @@
 {
   "name": "lxc-cpu-usage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LXC cpu usage utility.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "lxc"
+  ],
+  "bin": [
+    "lxc-cpu-usage": "bin/lxc-cpu-usage"
   ],
   "author": "hideack",
   "license": "MIT",
