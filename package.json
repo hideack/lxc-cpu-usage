@@ -1,0 +1,31 @@
+{
+  "name": "lxc-cpu-usage",
+  "version": "0.0.1",
+  "description": "LXC cpu usage utility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hideack/lxc-cpu-usage.git"
+  },
+  "keywords": [
+    "lxc"
+  ],
+  "author": "hideack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hideack/lxc-cpu-usage/issues"
+  },
+  "homepage": "https://github.com/hideack/lxc-cpu-usage",
+  "dependencies": {
+    "usage": "~0.3.10",
+    "commander": "~2.2.0",
+    "ps-tree": "0.0.3",
+    "step": "0.0.5",
+    "underscore": "~1.6.0",
+    "lxc": "0.0.5",
+    "sprintf": "~0.1.3"
+  }
+}
