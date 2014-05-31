@@ -1,6 +1,6 @@
 {
   "name": "lxc-cpu-usage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "LXC cpu usage utility.",
   "main": "index.js",
   "scripts": {
