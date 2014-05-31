@@ -8,6 +8,7 @@ var main = function() {
     .version(require('../package.json').version)
     .option('-n, --name [name]', 'CPU usage for target container.')
     .option('-v, --verbose',     'Verbose mode.')
+    .option('-m, --metric',      'Metric mode.')
     .parse(process.argv);
 
   if (!program.name) {
