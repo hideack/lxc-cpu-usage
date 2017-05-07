@@ -1,6 +1,8 @@
 lxc-cpu-usage
 =============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hideack/lxc-cpu-usage.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 ``` bash
